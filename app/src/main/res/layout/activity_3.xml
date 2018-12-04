@@ -33,7 +33,7 @@
         android:layout_marginBottom="8dp"
         android:cursorVisible="true"
         android:ems="10"
-        android:inputType="numberDecimal"
+        android:inputType="numberSigned|numberDecimal"
         android:text=""
         android:visibility="visible"
         app:layout_constraintBottom_toTopOf="@+id/graph"
