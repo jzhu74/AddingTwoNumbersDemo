@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
-
+    tools:context=".Activity3">
     <TextView
         android:id="@+id/tvAnswer"
         android:layout_width="wrap_content"
@@ -52,8 +51,8 @@
         android:layout_marginLeft="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
-        android:layout_marginBottom="8dp"
-        android:text="Gamma"
+        android:layout_marginBottom="1dp"
+        android:text="Normal"
         app:layout_constraintBottom_toTopOf="@+id/tvAnswer"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -69,16 +68,5 @@
         app:layout_constraintVertical_bias="0.84"
         tools:layout_editor_absoluteX="67dp" />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:layout_marginBottom="8dp"
-        android:onClick="openActivity2"
-        android:text="Exponential"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.087"
-        tools:layout_editor_absoluteX="1dp" />
 
 </android.support.constraint.ConstraintLayout>
